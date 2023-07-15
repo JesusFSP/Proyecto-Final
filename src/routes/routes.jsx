@@ -1,11 +1,16 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import PrimaryLayout from "../layouts/PrimaryLayout";
-import CharactersPage from "../pages/charactersPage";
-import CocktailPage from "../pages/CocktailPAge";
 import NotFoundPage from "../pages/NotFoundPage";
-import { readCharacters } from "../services/charactersService";
-import { readCocktails } from "../services/CocktailsService";
+import FoodPage from "../pages/FoodPage";
+import RecetaPage from "../pages/RecetaPage";
+import { readFoodCategories, readFoodId, readFoodIngredient } from "../services/FoodCategoriesService";
+import FormPAge from "../pages/FormPage";
+import PlatoPage from "../pages/PlatoPage";
+import DrinksCategoryPage from "../pages/DrinksCategoryPage";
+import { readDrink, readDrinks, readDrinksCategories } from "../services/DrinkService";
+import CocktailsPage from "../pages/CoctailsPage";
+import CocktailPage from "../pages/CocktailPage";
 
 export const router = createBrowserRouter([
   {
@@ -17,24 +22,42 @@ export const router = createBrowserRouter([
         index: true,
         element: <App />
       },
+      
       {
-        path: 'personajes',
-        element: <CharactersPage />,
-        loader: readCharacters
+        path: 'bebidas',
+        element: <DrinksCategoryPage/>,
+        loader: readDrinksCategories
       },
       {
-        path: 'cocktails',
-        element: <CocktailPage />,
-        loader: readCocktails
+        path: 'cocteles/:strCategory',
+        element: <CocktailsPage/>,
+        loader: readDrinks
       },
       {
-        path: 'ubicaciones',
-        element: <h1 style={{ padding: '5rem' }}>Ubicaciones</h1>
+        path: 'coctel/:idDrink',
+        element: <CocktailPage/>,
+        loader: readDrink
       },
       {
-        path: 'episodios',
-        element: <h1 style={{ padding: '5rem' }}>Episodios</h1>
-      }
+        path: 'food',
+        element: <FoodPage />,
+        loader: readFoodCategories
+      },
+      {
+        path: 'receta/:strCategory',
+        element: <RecetaPage />,
+        loader: readFoodIngredient
+      },
+      {
+        path: 'plato/:idMeal',
+        element: <PlatoPage />,
+        loader: readFoodId
+      },
+      {
+        path: 'contacto',
+        element: <FormPAge />,
+      },
+      
     ]
   },
 ]);

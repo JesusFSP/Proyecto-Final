@@ -1,0 +1,59 @@
+{
+    "drinks": [
+        {
+            "id": "0",
+            "strCategory": "Ordinary Drink",
+            "strDrinkThumb": "https://www.thespruceeats.com/thmb/rSJlCUttspISKnze82V6QlIBe5s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/tequila-sunrise-recipe-760754-hero-01-fbdd69f53c2f48ab8e13cc94deefcc7c.jpg"
+        },
+        {
+            "id": "1",
+            "strCategory": "Cocktail",
+            "strDrinkThumb": "https://imagenes.20minutos.es/files/og_thumbnail_1900/uploads/imagenes/2020/06/23/cocteles-recetas-y-formas-de-preparacion.jpeg"
+        },
+        {
+            "id": "2",
+            "strCategory": "Shake",
+            "strDrinkThumb": "https://cdn-3.expansion.mx/dims4/default/9499ce7/2147483647/strip/true/crop/800x420+0+15/resize/1200x630!/format/jpg/quality/80/?url=https%3A%2F%2Fcdn-3.expansion.mx%2F45%2Fd2%2F0d47c698411da486235bb6d2396c%2Ftrucos-coctel.jpg"
+        },
+        {
+            "id": "3",
+            "strCategory": "Other \/ Unknown",
+            "strDrinkThumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLVc-ALfEYCOPu5lcTKyccJbITU7pupXoWuw&usqp=CAU"
+        },
+        {
+            "id": "4",
+            "strCategory": "Cocoa",
+            "strDrinkThumb": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/C3F80699-7BC5-4EC7-89D2-6D11D67205FF/Derivates/b261e45a-8b3b-4dc7-851b-242a24b6e8b8.jpg"
+        },
+        {
+            "id": "5",
+            "strCategory": "Shot",
+            "strDrinkThumb": "https://i.ytimg.com/vi/3IVv5iCeIDY/maxresdefault.jpg"
+        },
+        {
+            "id": "6",
+            "strCategory": "Coffee \/ Tea",
+            "strDrinkThumb": "https://apasionados-por-el-cafe.s3.amazonaws.com/wp-content/uploads/2020/12/shutterstock_1035562495-min_opt.jpg"
+        },
+        {
+            "id": "7",
+            "strCategory": "Homemade Liqueur",
+            "strDrinkThumb": "https://licoreria247.pe/wp-content/uploads/2019/12/como-preparar-macerados-de-pisco-licoreria247.png"
+        },
+        {
+            "id": "8",
+            "strCategory": "Punch \/ Party Drink",
+            "strDrinkThumb": "https://hips.hearstapps.com/hmg-prod/images/delish-191018-moscow-mule-punch-0144-landscape-pf-1573163319.jpg?crop=1.00xw:0.752xh;0,0.168xh&resize=1200:*"
+        },
+        {
+            "id": "9",
+            "strCategory": "Beer",
+            "strDrinkThumb": "https://img.buzzfeed.com/buzzfeed-static/static/2014-12/29/14/enhanced/webdr11/enhanced-21083-1419881393-8.jpg?downsize=700%3A%2A&output-quality=auto&output-format=auto"
+        },
+        {
+            "id": "10",
+            "strCategory": "Soft Drink",
+            "strDrinkThumb": "https://www.cocteleria.com.mx/wp-content/uploads/2014/07/summer-short-cocktails.jpg"
+        }
+    ]
+}
